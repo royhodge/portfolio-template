@@ -1,51 +1,27 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- Put your site title here -->
   <title>
-    Roy Hodge | Developer
+    Roy Hodge | Developer Portfolio for UniBitX
   </title>
-
   <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Put your name, skills and some coding keywords" />
   <link rel="stylesheet" href="index.css" />
 </head>
-
 <body>
-
   <!-- ***** Header ***** -->
-
   <header class="header" role="banner" id="top">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#about" class="nav__link">About Me</a>
           </li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Contributions to UniBitX</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">UniBitX Clients & Partners</a></li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -56,20 +32,25 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Roy Hodge</span>
+          <span><b>Roy Hodge</b></span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Smalltown, USA.</p>
-        <a href="#contact" class="btn btn--green">Get in touch</a>
+        <p>
+          Co-Founder & Developer for <a href="https://unibitx.app">UniBitX<a/>
+            <br>
+            <br>
+            Currently, I'm out fishing on a lake, riding a bike down a hiking trail, or possibly camping out somewhere in the backwoods of Indiana..
+            <br>
+            <br>
+            Feel free to<br>
+          <a href="#contact" class="btn btn--pink">contact me</a><br>
+          for any business related inquiries..
+      </p>
       </div>
     </div>
   </header>
-
   <main role="main">
-
-
         <!-- ***** About ***** -->
-
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
@@ -77,34 +58,29 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              hello everyone! 👋
+              <br>
+              <br>My name is <a href="https://royhodge.github.io">Roy Hodge</a> & <a href="#work">Here</a> is where you can check out my contributions to the UniBitX community.<br><br>
+              If your interested in learning the <a href="https://github.com/UniBitX/unibitx">inner workings</a> of UniBitX or would like to do a podcast or talk on the subject of cryptocurrencies period, feel free to reach out to me.
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn btn--green">My Resume</a>
+            <!--
+            <a href="#" class="btn btn--green">Download My PDF Resume</a>
+-->
           </div>
-
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/roy.jpg" alt="" />
           </div>
         </div>
       </div>
     </section>
-  </main>
-    
-    
     <!-- ***** Work ***** -->
-
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>My Contributions To UniBitX So Far..</h2>
         <div class="work__boxes">
-
           <!-- Each div with the work__box class is a project. -->
-
           <div class="work__box">
             <div class="work__text">
               <h3>UniBitX Paper Wallet Generator</h3>
@@ -113,15 +89,14 @@
               </p>
               <ul class="work__list">
                 <li>HTML</li>
-                <li>SCSS</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
               </ul>
-
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                <a href="https://unibitx.github.io/paper-wallet/index.html" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/UniBitX/paper-wallet" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -130,26 +105,22 @@
               <img src="./images/ubx-project-1.png" class="work__image" alt="Project 1" />
             </div>
           </div>
-
           <div class="work__box">
             <div class="work__text">
               <h3>UniBitX Block Explorer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Block explorer for UniBitX CryptoNote based cryptocurrency.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
+                <li>JavaScript</li>
+                <li>Graph.js</li>
                 <li>MongoDB</li>
               </ul>
-
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="https://explorer.unibitx.app/" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/UniBitX/UniBitX-explorer-js">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -158,26 +129,22 @@
               <img src="./images/ubx-project-2.png" class="work__image" alt="Project 1" />
             </div>
           </div>
-
           <div class="work__box">
             <div class="work__text">
               <h3>UniBitX Network Map</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                A Node Map for UniBitX Network.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>JavaScript</li>
+                <li>D3 Library</li>
+                <li>Node.js</li>
               </ul>
-
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="http://104.251.210.135:8080/" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/UniBitX/network-map">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -189,89 +156,73 @@
         </div>
       </div>
     </section>
-
+  </main>
     <!-- ***** Clients ***** -->
-
     <section class="client" id="clients">
       <div class="row">
-        <h2>Clients</h2>
+        <h2>Clients & Partners</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-     
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          <a href="https://universalbitproject.com/"><img src="./images/unibit.png" class="client__logo" alt="UniBitX" /></a>
+          <a href="https://fredericksburgpeach.com"><img src="./images/peach.png" class="client__logo" alt="FredericksburgPeach.com" /></a>
         </div>
       </div>
     </section>
-
-
-
   <!-- ***** Contact ***** -->
-
   <section class="contact" id="contact">
     <div class="row">
       <h2>Get in Touch</h2>
       <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
+        <p><!--
+          Are you looking for a fast and user-friendly website to
           represent your product or business? or looking for any kind of
           consultation? or want to ask questions? or have some advice for me
           or just want to say "Hi 👋" in any case feel free to Let me know. I
           will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          me is via an email. -->
+          <ul class="footer__social-links">
+            <li class="footer__social-link-item">
+              <a href="https://www.facebook.com/roy.hodge.1232" title="Roy's Facebook Profile">
+                <img src="./images/fb.svg" class="footer__social-image" alt="Facebook">
+              </a>
+            </li>
+            <li class="footer__social-link-item">
+              <a href="https://twitter.com/aseriousgogetta" title="Roy's Twitter Profile">
+                <img src="./images/twitter.webp" class="footer__social-image" alt="Twitter">
+              </a>
+            </li>
+            <li class="footer__social-link-item">
+              <a href="https://www.linkedin.com/in/roy-hodge-b695a7102/">
+                <img src="./images/linkedin.png" title="Roy's Linkedin Profile" class="footer__social-image" alt="Linkedin">
+              </a>
+            </li>
+            </ul>
+            <ul class="footer__social-links">
+            <li class="footer__social-link-item">
+              <a href="https://github.com/royhodge/" title="Link to Github Profile">
+                <img src="./images/github.png" class="footer__social-image" alt="Github">
+              </a>
+            </li>
+            <li class="footer__social-link-item">
+              <a href="https://gitcoin.co/royhodge" title="Link to Gitcoin Profile">
+                <img src="./images/gitcoin.svg" class="footer__social-image" alt="Gitcoin">
+              </a>
+            </li>
+            <li class="footer__social-link-item">
+              <a href="https://codepen.io/royhodge" title="Roy's Codepen Profile">
+                <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+              </a>
+            </li>
+          </ul>
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">roy.hodge@mail.com</a>
+        <a href="mailto:roy.hodge@mail.com" class="btn">roy.hodge@mail.com</a>
       </div>
     </div>
   </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/aseriousgogetta/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/roy.hodge/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
-    </div>
-  </footer>
-
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
   <script src="./index.js"></script>
 </body>
-
 </html>
